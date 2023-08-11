@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+     /*
+      SELETORES 
+
+      #  = id
+      .  = class
+      :  = pseudo-class
+      :: = pseudo-element
+      >  = Children
+
+
+     */
+
+
+
+
+
+     body {
+       font-family: Arial, Helvetica, sans-serif;
+     }
+
+     a{ 
+        color: rgb(255, 8, 0);
+        text-decoration: none;
+        font-weight: bold;
+     }
+
+     a:visited{
+        color: rgb(168, 0, 0);
+     }
+
+     a:hover {
+        text-decoration: underline;
+        color: black;
+     }
+
+     a:active {
+
+        color: yellow;
+     }
+
+
+     a::after{
+        content: '♫';
+        
+
+     }
+     a::before{
+        content: '♫';
+        
+     }
+     .especial {
+      background-color: rgb(234, 236, 113);
+
+     }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href=https://www.gunsnroses.com target="_blank" rel="external" class="especial">Guns n`Roses</a></li>
+        <li><a href="https://www.facebook.com/leandrohenrique.francadefreitas.3/" target="_blank" rel="external">facebook</a></li>
+        <li><a href="https://www.instagram.com/leandrofranca.4/" target="_blank" rel="external" class="especial">instagram</a></li>
+    </ul>
+    
+</body>
+</html>
+

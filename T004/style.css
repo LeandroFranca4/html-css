@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: rgb(219, 228, 145);
+    
+}
+
+div{
+    background-color: white;
+  
+}
+
+
+
+
+header{
+    
+    background-color: green;
+    height: 140px;
+    
+   
+}
+
+
+
+header > h1{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+header > p {
+    
+    color: white;
+    width: 450px;
+    text-align: center;
+    margin: auto;
+   font-family: Arial, Helvetica, sans-serif;
+  
+}
+header > nav > p {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.726);
+    
+}
+header > nav > p:hover {
+    background-color: rgb(6, 122, 255);
+    color: rgb(1, 255, 1);
+}
+
+h3{
+    background-color: lightgreen;
+    
+}
+
+main{
+   background-color: white;
+   border: 10px 10px 10px 10px;
+}
